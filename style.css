@@ -1,0 +1,236 @@
+@font-face {
+    font-family: 'Raleway';
+    src: url("./assets/fonts/Raleway-VariableFont_wght.ttf") format("truetype");
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway';
+}
+
+header {
+    background-image: url(./assets/img/header.jpg);
+    background-position: left;
+    height: 90vh;
+}
+
+.flex-between {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.padd-4 {
+    padding: 4rem;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 30%;
+}
+
+.menu li {
+    list-style:none;
+    color: white;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.title {
+    color: white;
+    font-size: 32px;
+    position: absolute;
+    bottom: 170px;
+    left: 4rem;
+    line-height: 1.5;
+}
+
+.center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.subtitle {
+    text-align: center;
+    font-size: 32px;
+    padding: 4rem;
+    text-transform: capitalize;
+}
+
+.detalles {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    margin: 0 14rem;
+}
+
+.card {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 25%;
+}
+
+.card .img {
+    width: 35%;
+    height: auto;
+    padding: 1rem;
+}
+
+.card .img img {
+    width: 100%;
+    height: 100%;
+}
+
+.card h1 {
+    text-transform: uppercase;
+    font-size: 24px;
+    font-weight: bold;
+    padding: 1rem;
+}
+
+.text {
+    width: 26rem;
+    line-height: 1.5;
+}
+
+.anuncios {
+    margin: 0 12rem;
+}
+
+.anuncios-align {
+    display: flex;
+    justify-content: space-around;
+}
+
+.card-anuncios {
+    border: 1px solid grey;
+    width: 30%;
+    background-color: #f5f5f5;
+}
+
+.card-anuncios .img {
+    width: 100%;
+    height: auto;
+}
+
+.card-anuncios .img img {
+    width: 100%;
+    height: 100%;
+}
+
+.description {
+    padding: 2rem 2rem 1rem;
+}
+
+.description h1 {
+    font-size: 24px;
+}
+
+.description p {
+    font-size: 14px;
+    padding: 5px 0;
+    line-height: 1.5;
+}
+
+.description .precio {
+    color: #87ba40;
+    font-weight: bold;
+}
+
+.description .iconos {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 2rem;
+}
+
+.description .iconos div {
+    display: flex;
+    align-items: center;
+}
+
+.description .iconos span {
+    padding: 0 1rem;
+}
+
+.description .btn {
+    background-color: #df8817;
+    color: white;
+    padding: 0rem 1rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    border: none;
+    width: 100%;
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+
+.btn-gral {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin: 4rem 1.5rem 2rem 0;
+}
+
+.btn-gral button {
+    background-color: #71b11f;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 1rem;
+    border: none;
+    color: white;
+}
+
+footer {
+    background-image: url(./assets/img/encuentra.jpg);
+    background-position: left;
+    height: 70vh;
+    position: relative;
+}
+
+.bg-grey {
+    background-color: #333333;
+}
+
+.text-design {
+    color: white;
+    font-weight: bold;
+}
+
+.absolute {
+    position: absolute;
+    bottom: 0;
+    z-index: 10;
+    width: 100%;
+}
+
+.padd-3 {
+    padding: 3rem;
+}
+
+.title-footer {
+    color: white;
+    font-size: 28px;
+    position: absolute;
+    bottom: 160px;
+    left: 4rem;
+    line-height: 1.5;
+}
+
+footer .btn {
+    background-color: #df8817;
+    padding: 1rem 2rem;
+    margin-top: 3rem;
+    font-weight: bold;
+    border: none;
+    color: white;
+    text-transform: uppercase;
+}
